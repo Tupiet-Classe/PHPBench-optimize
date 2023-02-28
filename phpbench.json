@@ -1,0 +1,18 @@
+{
+  "runner.bootstrap": "vendor/autoload.php",
+  "runner.path": "tests/Benchmarks",
+  "report.generators": {
+    "sum": {
+      "generator": "expression",
+      "cols": [
+        "benchmark",
+        "subject",
+        "mean",
+        "mode",
+        "mem_peak",
+        "rstdev"
+      ]
+
+    }
+  }
+}

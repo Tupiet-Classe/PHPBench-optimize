@@ -1,0 +1,11 @@
+{
+  "minimum-stability": "dev",
+  "require": {
+    "phpbench/phpbench": "^1.0@alpha"
+  },
+  "autoload": {
+    "psr-4": {
+      "Demo\\Tests\\": "tests/"
+    }
+  }
+}
